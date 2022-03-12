@@ -50,7 +50,7 @@ $(function() {
                 draw(json_data.plots);
             },
             error: function() {
-
+                console.log('error!!');
             },
             complete: function() {
 
