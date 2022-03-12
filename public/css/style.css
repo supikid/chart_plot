@@ -1,0 +1,14 @@
+#myChart {
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.form-floating>label {
+    left: 1rem;
+}
+
+.copyright {
+    font-size: 0.4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
