@@ -6,12 +6,38 @@ $(function() {
                 label: '',
                 data: plots,
                 pointRadius: 0.1,
-                borderColor: "rgba(60, 190, 20, 1)"
+                borderColor: "rgba(60, 190, 20, 1)",
             }],
         };
 
         var options = {
             responsive: false,
+            scales: {
+                x: {
+                    min: -10,
+                    max: 10,
+                    grid: {
+                        borderWidth: 0,
+                        lineWidth: 1,
+                        display: true
+                    },
+                    ticks: {
+                        stepSize: 2
+                    }
+                },
+                y: {
+                    min: -10,
+                    max: 10,
+                    grid: {
+                        borderWidth: 0,
+                        lineWidth: 1,
+                        display: true
+                    },
+                    ticks: {
+                        stepSize: 2
+                    }
+                },
+            },
         };
 
         const ctx = document.getElementById('myChart');

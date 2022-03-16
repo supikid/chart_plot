@@ -41,7 +41,7 @@
                         <label for="x-start">開始</label>
                     </div>
                     <div class="form-floating col">
-                        <input type="text" id="x-end" class="form-control" placeholder="x-end" aria-label="x-end"  value="10">
+                        <input type="text" id="x-end" class="form-control" placeholder="x-end" aria-label="x-end" value="10">
                         <label for="x-end">終了</label>
                     </div>
                     <div class="form-floating col">
@@ -56,7 +56,7 @@
                         <input type="text" id="pmc" class="form-control" placeholder="param C" aria-label="param C" value="0">
                         <label for="pmc">パラメータC</label>
                     </div>
-                    
+
                 </div>
                 ※整数のみ有効
                 <div class="row mt-2">
@@ -68,6 +68,8 @@
     <footer>
         <div class="copyright text-center">supilog</div>
     </footer>
+    
+    </div>
     <!-- jquery -->
     <script src="/js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap -->
